@@ -1,8 +1,5 @@
 input_word = input()
 
-# input_word = input_word[::-1]
-#
-# print(input_word)
+input_word = input_word[::-1]
 
-for ch in range(len(input_word) - 1, -1, -1):
-    print(input_word[ch], end="")
+print(input_word)
