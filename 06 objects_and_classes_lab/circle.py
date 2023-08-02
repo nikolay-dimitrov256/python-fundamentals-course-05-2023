@@ -2,7 +2,6 @@ class Circle:
     __pi = 3.14
 
     def __init__(self, diameter):
-        # self.__pi = 3.14
         self.diameter = diameter
 
     def calculate_circumference(self):
