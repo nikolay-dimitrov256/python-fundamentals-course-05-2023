@@ -7,8 +7,8 @@ class Comment:
         self.likes = likes
 
 
-# comment = Comment("stryker256", "I like this book", likes=7)
-#
-# print(comment.username)
-# print(comment.content)
-# print(comment.likes)
+comment = Comment("stryker256", "I like this book", likes=7)
+
+print(comment.username)
+print(comment.content)
+print(comment.likes)
