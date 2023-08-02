@@ -1,19 +1,3 @@
-# import re
-#
-# number_of_lines = int(input())
-#
-# pattern = r'@([A-Za-z]+)\|.*#(\d+)\*'
-#
-# for _ in range(number_of_lines):
-#     line = input()
-#
-#     matches = re.search(pattern, line)
-#
-#     if matches:
-#         name = matches.group(1)
-#         age = matches.group(2)
-#         print(f'{name} is {age} years old.')
-
 number_of_lines = int(input())
 for _ in range(number_of_lines):
     line = input()
