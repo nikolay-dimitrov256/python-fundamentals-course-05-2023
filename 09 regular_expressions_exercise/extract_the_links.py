@@ -1,7 +1,6 @@
 import re
 
 pattern = '(w{3}\.[a-zA-Z0-9-\.]+\.[a-z]+)'
-#pattern = "(w{3}\.[a-zA-Z0-9-\.]+\.[a-z]+)"
 valid_urls = []
 
 while True:
