@@ -14,18 +14,6 @@ for i in range(len(line)):
             current_word = ''
             factor = ''
 
-        # if i + 1 < len(line):
-        #     if not line[i+1].isdigit():
-        #         factor = int(factor)
-        #         rage_message += current_word * factor
-        #         current_word = ''
-        #         factor = ''
-        # else:
-        #     factor = int(factor)
-        #     rage_message += current_word * factor
-        #     current_word = ''
-        #     factor = ''
-
     else:
         current_word += line[i].upper()
         if line[i].upper() not in unique_characters:
