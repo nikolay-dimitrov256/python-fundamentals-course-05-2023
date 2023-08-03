@@ -20,7 +20,6 @@ while day < 30:
 
 else:
     enough = True
-# enough = food_kg >= 0 and hay_kg >= 0 and cover_kg >= 0
 
 if enough:
     print(f"Everything is fine! Puppy is happy! Food: {food_kg:.2f}, Hay: {hay_kg:.2f}, Cover: {cover_kg:.2f}.")
